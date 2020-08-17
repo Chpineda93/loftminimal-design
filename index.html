@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Assets/AguaBlacklogo.png" type="image/png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>LoftMinimal</title>
+    <style type="text/css">
+        @font-face {
+            font-family: HelveticaNeue-Th;
+            src: url(./Fonts/HelveticaNeueLTStd-Th.otf);
+        }
+        
+        @font-face {
+            font-family: Baskerville-It;
+            src: url(./Fonts/BaskervilleMTStd-Italic.otf);
+        }
+        
+        body {
+            background-color: #181818;
+            color: #ffffff;
+        }
+        
+        @media (max-width: 1169px) {
+            .card-position {
+                font-size: 1.2vw!important;
+            }
+        }
+        
+        @media (max-width: 991px) {
+            .list-items {
+                margin: auto 5rem;
+            }
+            .card-position {
+                font-size: 1rem!important;
+                margin: 5%!important;
+            }
+            .comments-img {
+                margin-top: 3%;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .div-introText {
+                top: 55%!important;
+            }
+            .introText {
+                font-size: xx-large!important;
+            }
+            button {
+                margin: auto 5rem;
+            }
+        }
+        
+        h1,
+        h2 {
+            font-family: Baskerville-It;
+        }
+        
+        h2 {
+            font-size: 2.4rem;
+        }
+        
+        .my-nav {
+            background: rgba(0, 0, 0, 0.7);
+            font-family: HelveticaNeue-Th;
+            letter-spacing: .25rem;
+        }
+        
+        .logo-nav {
+            margin-left: 5rem;
+        }
+        
+        .navbar-dark .navbar-nav .nav-link {
+            font-size: x-small;
+            color: #ffffff;
+        }
+        
+        .nav-textList {
+            font-weight: lighter;
+            margin: auto 4.7rem auto auto;
+        }
+        
+        .instagram-icon {
+            width: 1.2rem;
+        }
+        
+        .carousel-item {
+            height: 84vh;
+            min-height: 350px;
+            background: no-repeat center center scroll;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        
+        .div-introText {
+            position: absolute;
+            top: 62.5%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .introText {
+            font-size: xxx-large;
+        }
+        
+        .col-lg-6 {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .card-position {
+            margin: auto;
+        }
+        
+        .text-box {
+            text-align: left;
+            margin: auto 18% auto 25%;
+        }
+        
+        hr {
+            border: 1px solid;
+            width: 10%;
+            display: inline-block;
+        }
+        
+        .comments-img {
+            width: 100%;
+        }
+        
+        button {
+            margin-right: 5rem;
+        }
+        
+        footer {
+            background-color: #0c0c0c;
+            padding: 1rem;
+        }
+        
+        .img-footer {
+            margin: auto 1.6rem 1.3rem;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="main-header">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark my-nav fixed-top">
+                <a class="navbar-brand logo-nav" href=""><img class="img-nav" src="./Assets/Group 12.png" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item list-items">
+                            <a class="nav-link nav-textList" href="#">LISTINGS</a>
+                        </li>
+                        <li class="nav-item list-items">
+                            <a class="nav-link nav-textList" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item list-items">
+                            <a class="nav-link nav-textList" href="#">JUAN ANTONIO</a>
+                        </li>
+                        <li class="nav-item list-items">
+                            <a class="nav-link nav-textList" href="#"><img class="instagram-icon" src="./Assets/Path 20.png" alt="instagram"></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <!--  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                </ol>
+                -->
+                <div class="carousel-inner" role="listbox">
+
+                    <div class="carousel-item active" style="background-image: url('./Assets/iStock-478952680-1.png') ">
+                        <div class="carousel-caption d-md-block div-introText">
+                            <h2 class="introText">Live and Invest in Medellín.</h2>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </header>
+    </section>
+    <section id="comments">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 card-position">
+                    <div class="text-box">
+                        <h2>Live and Invest in Medellín.</h2>
+                        <hr>
+                        <p>Loftminimal is a customized, Medellin-located, real-estate agency specialized in investors as well as state-of-the-art residential properties. </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="comments-img img-fluid " src="./Assets/iStock-905942188.png" alt="who we are?">
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-6 ">
+                    <img class="comments-img img-fluid " src="./Assets/Mask Group 1.png" alt="why choose to us?">
+                </div>
+                <div class="col-lg-6 card-position">
+                    <div class="text-box">
+                        <h2>Medellin is changing and growing. Fast.</h2>
+                        <p>Faster than many could ever expect, but at Loftminimal we are aware of this.</p>
+                        <hr>
+                        <p> That’s why we trust you with true professionals at the moment of buying or selling a property in one of major development centers of the Americas, because based under the principle of PEOPLE FIRST we know that your trust and confidence
+                            is key when your next investment is on the table.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 card-position">
+                    <div class="text-box">
+                        <h1>Start experiencing life.</h1>
+                        <hr>
+                    </div>
+                </div>
+                <div class="col-lg-6 ">
+                    <img class="comments-img img-fluid " src="./Assets/iStock-499887682.png" alt="getting start">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="text-center">
+            <a href="#"><img class="img-footer" src="./Assets/Group 5.png" alt="LoftMinimalFooter" /></a>
+            <a href="#"><img class="img-footer" src="./Assets/Path 20.png" alt="instagram" /></a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+</html>
